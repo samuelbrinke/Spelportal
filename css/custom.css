@@ -19,6 +19,21 @@
     color: black;
 }
 
+.footer {
+    background-color: #181a1f;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer a:hover {
+    color: rgb(209, 209, 209);
+}
+
 @media (max-width:991px) {
     .menu {
         position: fixed;
@@ -33,6 +48,5 @@
     }
     .menu-is-open {
         left: 0;
-
     }
 }
