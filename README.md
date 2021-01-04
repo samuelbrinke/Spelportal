@@ -7,10 +7,10 @@ Detta ska vara en spelportalsida som visar flashspel som produkter fast när man
 
 ## Välkomstsida
 
-## Kontaktsida
+## Kontaktsida ( Jakob )
 
 ## Produktsida
 
-## Informationssida (Vilka som jobbar här osv)
+## Informationssida (Vilka som jobbar här osv) ( Alan )
 
 ## Blogginläggsida
