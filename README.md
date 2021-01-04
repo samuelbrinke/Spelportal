@@ -5,7 +5,7 @@ Detta ska vara en spelportalsida som visar flashspel som produkter fast när man
 
 ## Vad som måste vara med i projektet
 
-## Välkomstsida
+## Välkomstsida ( Samuel )
 
 ## Kontaktsida ( Jakob )
 
