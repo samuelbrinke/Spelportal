@@ -50,3 +50,25 @@
         left: 0;
     }
 }
+.faq-headline{
+    color: #fff;
+    text-decoration: none;
+    object-position: center;
+    font-weight: bold;
+    
+}
+.info-text{
+    color: whitesmoke;
+    font-weight: bolder;
+}
+.faq-section{
+    color: whitesmoke;
+    font-weight: bold;
+}
+.desc{
+    font-weight:lighter;
+}
+.footer-info{
+    background: #181a1f;
+    posi
+}
