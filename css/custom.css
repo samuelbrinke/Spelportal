@@ -19,6 +19,23 @@
     color: black;
 }
 
+.games .card {
+    border: none;
+    border-radius: unset;
+}
+
+.games .card-body {
+    padding: 0;
+    border: none;
+    border-radius: unset;
+}
+
+.games .card-body .img-thumbnail {
+    padding: 0;
+    border: none;
+    border-radius: unset;
+}
+
 .footer {
     background-color: #181a1f;
     color: #fff;
