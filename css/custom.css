@@ -19,6 +19,23 @@
     color: black;
 }
 
+.games .card {
+    border: none;
+    border-radius: unset;
+}
+
+.games .card-body {
+    padding: 0;
+    border: none;
+    border-radius: unset;
+}
+
+.games .card-body .img-thumbnail {
+    padding: 0;
+    border: none;
+    border-radius: unset;
+}
+
 .footer {
     background-color: #181a1f;
     color: #fff;
@@ -49,4 +66,26 @@
     .menu-is-open {
         left: 0;
     }
+}
+.faq-headline{
+    color: #fff;
+    text-decoration: none;
+    object-position: center;
+    font-weight: bold;
+    
+}
+.info-text{
+    color: whitesmoke;
+    font-weight: bolder;
+}
+.faq-section{
+    color: whitesmoke;
+    font-weight: bold;
+}
+.desc{
+    font-weight:lighter;
+}
+.footer-info{
+    background: #181a1f;
+    posi
 }
