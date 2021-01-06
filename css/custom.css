@@ -1,3 +1,8 @@
+body {
+    background: #181a1f;
+    color: #fff;
+}
+
 .overlay {
     opacity: 0;
     background: rgba(11,14,14,.5);
@@ -19,9 +24,49 @@
     color: black;
 }
 
+.wrapper {
+    position: relative;
+}
+
+.left-col {
+    position: absolute;
+    z-index: 3;
+    left: 300px;
+
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.left-col p {
+    font-size: 20px;
+}
+
+.video {
+    position: relative;
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.video-bg img {
+    height: 100%;
+}
+
 .games .card {
     border: none;
     border-radius: unset;
+    background: none;
 }
 
 .games .card-body {
@@ -36,8 +81,13 @@
     border-radius: unset;
 }
 
+.games .game-link {
+    text-decoration: none;
+    color: #fff;
+}
+
 .footer {
-    background-color: #181a1f;
+    background-color: #12161f;
     color: #fff;
     padding: 50px 20px;
 }
@@ -87,5 +137,4 @@
 }
 .footer-info{
     background: #181a1f;
-    posi
 }
