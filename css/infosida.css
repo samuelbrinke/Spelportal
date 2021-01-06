@@ -1,0 +1,29 @@
+.faq-headline{
+    text-align: center;
+    color:#181a1f;
+    background-color:white;
+    font-weight: bold;
+    padding: 20px 20px;
+}
+.accordion-body{
+    color: black;
+    font-weight: lighter;
+}
+.accordion-button{
+    color:#181a1f;
+    font-weight: bold;
+}
+.faq-container{
+    background-color:white;
+}
+.faq-body{
+    background-color: white;
+}
+.info-klass{
+    padding: 30px 30px;
+    background: white;
+    font-size: large;
+    text-align: center;
+    background-color: #181a1f;
+    color:whitesmoke;
+}
