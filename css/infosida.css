@@ -23,7 +23,12 @@
     padding: 30px 30px;
     background: white;
     font-size: large;
+    font-weight: lighter;
     text-align: center;
     background-color: #181a1f;
     color:whitesmoke;
+    position:absolute;                  
+    bottom:0; 
+    right:0;
+    left:0;
 }
