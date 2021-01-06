@@ -16,7 +16,7 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/contact-us.css" />
+    <link rel="stylesheet" href="css/kontakt.css" />
     <link rel="stylesheet" href="css/custom.css" />
   </head>
   <body>
@@ -65,29 +65,47 @@
       </nav>
     </header>
 
+    <!--MAIN CONTENT-->
     <div class="container big">
       <div class="row mt-3">
         <div class="col-12 col-lg-6 mt-3 side-show">
-          <h2>This will be side show</h2>
-          <i class="fas fa-phone fa-3x"></i>
+          <a href="tel:+46-705-559-6"><i class="fas fa-phone fa-3x"></i></a>
+
           <p>+46-705-559-6</p>
           <br />
+          <a href="mailto:spelportalen@gmail.com"
+            ><i class="fas fa-envelope fa-3x"></i
+          ></a>
 
-          <i class="fas fa-envelope fa-3x"></i>
           <p>Spelportalen.info@hotmail.com</p>
           <br />
 
-          <i class="fas fa-map-marked-alt fa-3x"> </i>
+          <a
+            href="https://www.google.se/maps/place/Industrigatan+4c,+112+46+Stockholm/@59.3363311,18.0303459,16z/data=!4m5!3m4!1s0x465f9d7ebeba5399:0x92c7e047155fe40c!8m2!3d59.33655!4d18.0310862"
+            target="blank"
+            ><i class="fas fa-map-marked-alt fa-3x"> </i
+          ></a>
+
           <p>Industrigatan 4C 11246 STOCKHOLM</p>
           <br />
         </div>
         <div class="col mt-3">
-          <h2>Contact us</h2>
+          <h2>Contact us direct via email</h2>
           <form
             action="mailto:Spelportalen.info@hotmail.com"
             method="post"
             enctype="text/plain"
           >
+            <div class="mb-3">
+              <label for="Name" class="form-label">Subject</label>
+              <input
+                type="text"
+                class="form-control"
+                id="Name"
+                name="Name"
+                placeholder="Name"
+              />
+            </div>
             <div class="mb-3">
               <label for="subject" class="form-label">Subject</label>
               <input
@@ -95,16 +113,17 @@
                 class="form-control"
                 id="subject"
                 name="subject"
-                placeholder="name@example.com"
+                placeholder="subject"
               />
             </div>
             <div class="mb-3">
-              <label for="Text" class="form-label">Example textarea</label>
+              <label for="Text" class="form-label">Message</label>
               <textarea
                 class="form-control"
                 name="text"
                 id="text"
                 rows="3"
+                placeholder="Write your message here"
               ></textarea>
             </div>
             <div class="col-auto">
@@ -116,6 +135,41 @@
         </div>
       </div>
     </div>
+
+    <!--FOOTER-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Hem</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="onlinespel.html">Onlinespel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="information.html">Information</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kontakt.html">Kontakta oss</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blogg.html">Blogg</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Kontakta oss</h3>
+            <p>Tel: <a href="tel:0701234567">070 123 45 67</a></p>
+            <p>
+              Mail:
+              <a href="mailto:spelportalen@gmail.com">spelportalen@gmail.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
