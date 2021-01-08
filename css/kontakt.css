@@ -1,8 +1,17 @@
+.content {
+  margin-top: 56px;
+  height: 76vh;
+  display: flex;
+}
+
 .big {
   background: #181a1f;
   box-shadow: -1px 2px 22px 20px rgba(0, 0, 0, 0.79);
   -webkit-box-shadow: -1px 2px 22px 20px rgba(0, 0, 0, 0.79);
   -moz-box-shadow: -1px 2px 22px 20px rgba(0, 0, 0, 0.79);
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
   box-shadow: 0 0 100px 0 #000;
 }
 .side-show {
