@@ -1,11 +1,15 @@
+.content {
+  margin-top: 56px;
+}
+
 .big {
   background: #181a1f;
   box-shadow: -1px 2px 22px 20px rgba(0, 0, 0, 0.79);
   -webkit-box-shadow: -1px 2px 22px 20px rgba(0, 0, 0, 0.79);
   -moz-box-shadow: -1px 2px 22px 20px rgba(0, 0, 0, 0.79);
+  margin-top: 10%;
+  margin-bottom: 10%;
   box-shadow: 0 0 100px 0 #000;
-  margin-top: 3%;
-  margin-bottom: 3%;
 }
 .side-show {
   text-align: center;
