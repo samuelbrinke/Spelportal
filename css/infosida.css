@@ -1,9 +1,11 @@
-.faq-headline{
+.faq-div{
     text-align: center;
-    color:#181a1f;
-    background-color:white;
-    font-weight: bold;
     padding: 20px 20px;
+    background-color:white;
+}
+.faq-headline{
+    color: #181a1f;
+    font-weight: bold;
 }
 .accordion-body{
     color: black;
@@ -27,8 +29,8 @@
     text-align: center;
     background-color: #181a1f;
     color:whitesmoke;
-    position:absolute;                  
-    bottom:0; 
     right:0;
     left:0;
+    position: relative;
+    margin-top: 30px;
 }
