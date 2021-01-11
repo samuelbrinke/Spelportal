@@ -1,64 +1,63 @@
 body {
-    background: #181a1f;
-    color: #fff;
+  background: #181a1f;
+  color: #fff;
 }
 
 .box-shadow {
-    box-shadow: 0 0 100px 0 #000;
+  box-shadow: 0 0 100px 0 #000;
 }
 
 .overlay {
-    opacity: 0;
-    background: rgba(11,14,14,.5);
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    height: 100vh;
-    width: 100vw;
-    visibility: hidden;
-    transition-duration: .3s;
-
+  opacity: 0;
+  background: rgba(11, 14, 14, 0.5);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+  visibility: hidden;
+  transition-duration: 0.3s;
 }
 .overlay-show {
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 
 .close-menu {
-    color: #fff;
+  color: #fff;
 }
 
 .navbar.bg-dark {
-    background-color:  #12161f !important;
+  background-color: #12161f !important;
 }
 
 .wrapper {
-    position: relative;
-    background: #181a1f;
+  position: relative;
+  background: #181a1f;
 }
 
 .left-col {
-    position: absolute;
-    z-index: 3;
-    left: 300px;
+  position: absolute;
+  z-index: 3;
+  left: 300px;
 
-    width: 40%;
-    height: 100%;
+  width: 40%;
+  height: 100%;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .left-col p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .video {
-    position: relative;
-    width: 75%;
-    height: auto;
-    margin-left: auto;
+  position: relative;
+  width: 75%;
+  height: auto;
+  margin-left: auto;
 }
 
 /* .vid-shadow {
@@ -73,155 +72,161 @@ body {
 } */
 
 .video-bg {
-    position: absolute;
-    top: 0;
-    bottom: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
 }
 
 .video-bg img {
-    height: 100%;
+  height: 100%;
 }
 
-@media (max-width:991px) {
-    .left-col {
-        position: relative;
-        z-index: 0;
-        width: unset;
-        left: unset;
-        padding: 1rem;
-    }
+@media (max-width: 991px) {
+  .left-col {
+    position: relative;
+    z-index: 0;
+    width: unset;
+    left: unset;
+    padding: 1rem;
+  }
 
-    .video {
-        display: none;
-    }
+  .video {
+    display: none;
+  }
 }
 
 .index-content {
-    margin-top: 120px;
-    margin-bottom: 120px;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
-.games .card{
-    border: none;
-    border-radius: unset;
-    background: none;
+.games .card {
+  border: none;
+  border-radius: unset;
+  background: none;
 }
 
 .games .card-body {
-    padding: 0;
-    border: none;
-    border-radius: unset;
+  padding: 0;
+  border: none;
+  border-radius: unset;
 }
 
 .games .card-body .img-thumbnail,
-.blog-banner .img-thumbnail{
-    padding: 0;
-    border: none;
-    border-radius: unset;
+.blog-banner .img-thumbnail {
+  padding: 0;
+  border: none;
+  border-radius: unset;
 }
 
 .games .game-link {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .games .card-body span {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 3;
-    opacity: 0;
-    transition-duration: 0.3s;
-    text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  opacity: 0;
+  transition-duration: 0.3s;
+  text-align: center;
 }
 
 .games .card-body span:hover {
-    opacity: 1;
-    background-color: rgba(0, 0, 0, 0.377);
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.377);
 }
 
 .blogposts-content {
-    margin-bottom: 3rem;
-    transition-duration: .3s;
-    border-radius: .25rem;
-    padding: 1rem;
-    cursor: pointer;
+  margin-bottom: 3rem;
+  transition-duration: 0.3s;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  cursor: pointer;
 }
 
 .blogposts-content:hover {
-    box-shadow: 0px 0px 14px 6px #00000045;
-    background: #13161f;
+  box-shadow: 0px 0px 14px 6px #00000045;
+  background: #13161f;
 }
 
 .blogposts-content .post-content {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
-.post-banner .img-thumbnail{
-    padding: 0;
-    border: none;
-    border-radius: unset;
+.post-banner .img-thumbnail {
+  padding: 0;
+  border: none;
+  border-radius: unset;
 }
 
 .footer {
-    background-color: #12161f;
-    color: #fff;
-    padding: 50px 20px;
+  background-color: #12161f;
+  color: #fff;
+  padding: 50px 20px;
 }
 
 .footer a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }
 .footer a:hover {
-    color: rgb(209, 209, 209);
+  color: rgb(209, 209, 209);
 }
 
 .modal-content {
-    background: #181a1f;
+  background: #181a1f;
 }
 
 .modal-dialog {
-    max-width: unset;
+  max-width: unset;
 }
 
-@media (max-width:991px) {
-    .menu {
-        position: fixed;
-        top: 0;
-        left: -100%;
-        background: #12161f;
-        padding: 30px;
-        width: 85% !important;
-        height: 100vh;
-        z-index: 3;
-        transition-duration: .3s;
-    }
-    .menu-is-open {
-        left: 0;
-    }
+@media (max-width: 991px) {
+  .menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background: #12161f;
+    padding: 30px;
+    width: 85% !important;
+    height: 100vh;
+    z-index: 3;
+    transition-duration: 0.3s;
+  }
+  .menu-is-open {
+    left: 0;
+  }
 }
-.faq-headline{
-    color: #fff;
-    text-decoration: none;
-    object-position: center;
-    font-weight: bold;
-    
+.faq-headline {
+  color: #fff;
+  text-decoration: none;
+  object-position: center;
+  font-weight: bold;
 }
-.info-text{
-    color: whitesmoke;
-    font-weight: bolder;
+.info-text {
+  color: whitesmoke;
+  font-weight: bolder;
 }
-.faq-section{
-    color: whitesmoke;
-    font-weight: bold;
+.faq-section {
+  color: whitesmoke;
+  font-weight: bold;
 }
-.desc{
-    font-weight:lighter;
+.desc {
+  font-weight: lighter;
 }
-.footer-info{
-    background: #181a1f;
+.footer-info {
+  background: #181a1f;
 }
+
+/* Kod i blog //Jakob*/
+.blog-img {
+  width: 100%;
+}
+
+/* Slut kod//Jakob*/
