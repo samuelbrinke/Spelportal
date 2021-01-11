@@ -1,4 +1,6 @@
 # Projekt-Spelportal
+TODO innan inläming
+Kolla över alla (direct)länkar så dom funkar rumtom på sidan. (Buggigt just nu på endel sidor)
 
 ## Vår idé
 Detta ska vara en spelportalsida som visar flashspel som produkter fast när man trycker på ett spel så blir man skickad till sidan som har spelet.
