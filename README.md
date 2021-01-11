@@ -14,3 +14,4 @@ Detta ska vara en spelportalsida som visar flashspel som produkter fast när man
 ## Informationssida (Vilka som jobbar här osv) ( Alan )
 
 ## Blogginläggsida
+Ändrat background color på modal, fundering om nav och footer ska ha samma färg som modalen är ändrad till. 
