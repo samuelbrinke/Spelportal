@@ -2,6 +2,10 @@
     text-align: center;
     padding: 20px 20px;
 }
+.faq-container{
+    box-shadow: 0 0 100px 0 #000;
+    margin-bottom: 100px;
+}
 .faq-headline{
     font-weight: bold;
     text-align: center;
@@ -14,10 +18,10 @@
 .accordion-button{
     font-weight: bold;
     text-align: left;
+    color: white;
+    margin-bottom: 9px;
 }
-.faq-container{
-    
-}
+
 .info-klass{
     padding: 20px;
     background: white;
@@ -40,8 +44,21 @@
     font-weight: bold;
     text-align:center;
     font-size:small;
+    margin-top: 10px;
 }
 
 #infosida .card-body {
     color: #181a1f;
+    margin-top: 10px;
+}
+.anställda{
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+.about-us-container{
+    
+}
+.about-us{
+    text-align: center;
 }
