@@ -1,34 +1,44 @@
-.faq-headline{
+.faq-div{
     text-align: center;
-    color:#181a1f;
-    background-color:white;
-    font-weight: bold;
     padding: 20px 20px;
 }
+.faq-headline{
+    font-weight: bold;
+    text-align: center;
+}
 .accordion-body{
-    color: black;
     font-weight: lighter;
+    text-align: left;
+
 }
 .accordion-button{
-    color:#181a1f;
     font-weight: bold;
+    text-align: left;
 }
 .faq-container{
-    background-color:white;
-}
-.faq-body{
-    background-color: white;
+    
 }
 .info-klass{
-    padding: 30px 30px;
+    padding: 20px;
     background: white;
     font-size: large;
     font-weight: lighter;
     text-align: center;
     background-color: #181a1f;
-    color:whitesmoke;
-    position:absolute;                  
-    bottom:0; 
     right:0;
     left:0;
+    position: relative;
+    margin-top: 30px;
 }
+.footer{
+    background:#181a1f ;
+}
+
+.btn-primary{
+    background: #181a1f;
+    color: white;
+    font-weight: bold;
+    text-align:center;
+    font-size:small;
+}
+
