@@ -45,6 +45,7 @@
     text-align:center;
     font-size:small;
     margin-top: 10px;
+    
 }
 
 #infosida .card-body {
@@ -64,8 +65,8 @@
 }
 .faq-img{
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     background-size:100% ;
     margin: auto;
     margin-bottom: 20px;
