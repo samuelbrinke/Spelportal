@@ -62,3 +62,12 @@
 .about-us{
     text-align: center;
 }
+.faq-img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-size:100% ;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
