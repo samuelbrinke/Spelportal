@@ -101,10 +101,21 @@ body {
   padding: 1rem;
 }
 
+.blogposts h3 a,
+.games h3 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.blogposts h3 a:hover,
+.games h3 a:hover {
+  color: #b6b6b6;
+}
+
 .games {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 1rem;
 }
 
 .games .card {
@@ -234,6 +245,16 @@ body {
 /* Kod i blog //Jakob*/
 .blog-img {
   width: 100%;
+}
+.welcome-text {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.welcome-text h1 {
+  margin-bottom: 20px;
+}
+.Articel-group {
+  cursor: pointer;
 }
 
 /* Slut kod//Jakob*/
