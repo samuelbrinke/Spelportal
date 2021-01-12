@@ -102,9 +102,9 @@ body {
 }
 
 .games {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 1rem;
 }
 
 .games .card {
@@ -234,6 +234,16 @@ body {
 /* Kod i blog //Jakob*/
 .blog-img {
   width: 100%;
+}
+.welcome-text {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.welcome-text h1 {
+  margin-bottom: 20px;
+}
+.Articel-group {
+  cursor: pointer;
 }
 
 /* Slut kod//Jakob*/
