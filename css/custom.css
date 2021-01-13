@@ -101,6 +101,17 @@ body {
   padding: 1rem;
 }
 
+.blogposts h3 a,
+.games h3 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.blogposts h3 a:hover,
+.games h3 a:hover {
+  color: #b6b6b6;
+}
+
 .games {
   padding-left: 1rem;
   padding-right: 1rem;
