@@ -1,6 +1,6 @@
 .content {
   margin-top: 56px;
-  height: 76vh;
+
   display: flex;
 }
 
@@ -13,6 +13,11 @@
   margin-top: auto;
   margin-bottom: auto;
   box-shadow: 0 0 100px 0 #000;
+}
+@media only screen and (min-width: 992px) {
+  .content {
+    height: 76vh;
+  }
 }
 .side-show {
   text-align: center;

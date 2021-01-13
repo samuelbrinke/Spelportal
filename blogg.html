@@ -2,9 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-
+    <meta name="description" content="Välkommen hit och kolla vad som är nytt i spelvärlden!">
+    <meta name="keywords" content="Spel, Onlinespel, Spelnyheter">
+    <meta name="author" content="Spelportalen AB">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Spelportalen - Blogg</title>
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
@@ -17,52 +19,52 @@
   <body>
     <div class="overlay"></div>
     <header class="fixed-top">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <button
-            id=""
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="#">Spelportalen</a>
-          <div class="menu navbar-nav w-100 d-lg-flex">
-            <div class="d-flex justify-content-end d-lg-none">
-              <a class="close-menu">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="42"
-                  height="42"
-                  fill="currentColor"
-                  class="bi bi-x"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
-                  />
-                </svg>
-              </a>
-            </div>
-            <a class="nav-link" href="index.html">Hem</a>
-            <a class="nav-link" href="onlinespel.html">Onlinespel</a>
-            <a class="nav-link" href="information.html">Information</a>
-            <a class="nav-link" href="kontakt.html">Kontakta oss</a>
-            <a class="nav-link" href="blogg.html">Blogg</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <button
+          id=""
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Spelportalen</a>
+        <div class="menu navbar-nav w-100 d-lg-flex">
+          <div class="d-flex justify-content-end d-lg-none">
+            <a class="close-menu">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="42"
+                height="42"
+                fill="currentColor"
+                class="bi bi-x"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                />
+              </svg>
+            </a>
           </div>
-          <!-- Vet ej vad vi ska ha här än -->
-          <div class=""></div>
+          <a class="nav-link" href="onlinespel.html">Onlinespel</a>
+          <a class="nav-link" href="infosida.html">Information</a>
+          <a class="nav-link" href="kontakt.html">Kontakta oss</a>
+          <a class="nav-link" href="blogg.html">Blogg</a>
         </div>
-      </nav>
-    </header>
+        <!-- Vet ej vad vi ska ha här än -->
+        <div class=""></div>
+      </div>
+    </nav>
+  </header>
 
     <!-- Main Content -->
-    <div class="container index-content box-shadow p-3">
+    <main>
+<div class="container index-content box-shadow p-3">
       <div class="row">
         <div class="welcome-text">
           <h1>Välkommen till Spelportalens Bloggsida!</h1>
@@ -73,10 +75,11 @@
         </div>
       </div>
       <div class="row">
-        <div class="col">
+        <div class="col-lg-9">
           <div class="blogposts">
             <!-- Modal -->
-            <div
+            <article>
+<div
               class="modal fade"
               id="exampleModal"
               tabindex="-1"
@@ -103,7 +106,7 @@
                         src="./img/blog-img/cyberpunk.jpg"
                         alt=""
                       />
-                      <h1>Cyberpunk 2077 Refunds</h1>
+                      <h3>Cyberpunk 2077 Refunds</h3>
                       <p>
                         Last night, Sony announced that it was pulling Cyberpunk
                         2077 from the PlayStation Store, and that the company
@@ -137,7 +140,9 @@
                 </div>
               </div>
             </div>
-
+            </article>
+            
+            <article>
             <div
               class="modal fade"
               id="exampleModal2"
@@ -165,7 +170,7 @@
                         src="./img/blog-img/vidgames.jpg"
                         alt=""
                       />
-                      <h1>Video games are bad</h1>
+                      <h3>Video games are bad</h3>
                       <p>
                         Lots of kids love video games. In fact, they like them
                         so much that they might hear something like this from
@@ -210,9 +215,12 @@
                 </div>
               </div>
             </div>
+            </article>
+            
 
             <!--Minecraft modalopen3-->
-            <div
+            <article>
+<div
               class="modal fade"
               id="exampleModal3"
               tabindex="-1"
@@ -239,7 +247,7 @@
                         src="./img/blog-img/minecraft.png"
                         alt=""
                       />
-                      <h1>Minecraft cheating scandal</h1>
+                      <h3>Minecraft cheating scandal</h3>
                       <p>
                         A brief summary of the cheating scandal surrounding
                         YouTube's biggest Minecraft speedrunner With 15.4
@@ -287,9 +295,12 @@
                 </div>
               </div>
             </div>
+            </article>
+            
             <!--Minecraft ModalEnd-->
 
             <!--FlappyBird ModalOpen-->
+            <article>
             <div
               class="modal fade"
               id="exampleModal4"
@@ -302,7 +313,8 @@
                   <div class="modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title" id="exampleModalLabel">
-                        Minecraft cheating scandal
+                        The Flight of the Birdman: Flappy Bird Creator Dong
+                        Nguyen Speaks Out
                       </h5>
                       <button
                         type="button"
@@ -317,10 +329,10 @@
                         src="./img/blog-img/flappy-bird.jpg"
                         alt=""
                       />
-                      <h1>
+                      <h3>
                         The Flight of the Birdman: Flappy Bird Creator Dong
                         Nguyen Speaks Out
-                      </h1>
+                      </h3>
                       <p>
                         Last April, Dong Nguyen, a quiet 28-year-old who lived
                         with his parents in Hanoi, Vietnam, and had a day job
@@ -377,11 +389,13 @@
                 </div>
               </div>
             </div>
+            </article>
+            
 
             <!--FlappyBird ModalEnd-->
 
             <!--Start of Modal'Showcase'-->
-
+            <article>
             <div
               class="blogposts-content"
               data-bs-toggle="modal"
@@ -405,6 +419,9 @@
                 </p>
               </div>
             </div>
+            </article>
+            
+            <article>
             <div
               class="blogposts-content"
               data-bs-toggle="modal"
@@ -428,7 +445,9 @@
                 </p>
               </div>
             </div>
-
+            </article>
+            
+            <article>
             <div
               class="blogposts-content"
               data-bs-toggle="modal"
@@ -452,7 +471,9 @@
                 </p>
               </div>
             </div>
-
+            </article>
+            
+            <article>
             <div
               class="blogposts-content"
               data-bs-toggle="modal"
@@ -481,7 +502,9 @@
             </div>
           </div>
         </div>
-        <div class="col-3">
+            </article>
+            
+        <div class=" col-12 col-lg-3">
           <h4>Mest visade artiklar</h4>
           <div class="Articel-group">
             <ul>
@@ -519,7 +542,7 @@
           <h4>Debatter</h4>
           <div class="Articel-group">
             <ul>
-              <li data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <li data-bs-toggle="modal" data-bs-target="#exampleModal2">
                 Video games are bad for you
               </li>
             </ul>
@@ -530,6 +553,8 @@
         </div>
       </div>
     </div>
+    </main>
+    
 
     <!--Footer-->
     <footer class="footer">
@@ -544,7 +569,7 @@
                 <a class="nav-link" href="onlinespel.html">Onlinespel</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="information.html">Information</a>
+                <a class="nav-link" href="infosida.html">Information</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="kontakt.html">Kontakta oss</a>
